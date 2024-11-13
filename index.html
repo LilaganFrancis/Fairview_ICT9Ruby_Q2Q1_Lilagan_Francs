@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Showcase</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .crypto-card {
+            margin: 20px 0;
+        }
+        .crypto-logo {
+            width: 50px;
+            height: 50px;
+        }
+        .table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>Cryptocurrency Showcase</h1>
+            <p>Explore the world's top cryptocurrencies</p>
+        </header>
+
+        <!-- Cryptocurrencies Section -->
+        <div class="row">
+            <!-- Bitcoin Card -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin Logo" class="card-img-top crypto-logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Bitcoin (BTC)</h5>
+                        <p class="card-text">Bitcoin is the first decentralized digital currency. Launched in 2009 by an anonymous person or group known as Satoshi Nakamoto.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ethereum Card -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum Logo" class="card-img-top crypto-logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethereum (ETH)</h5>
+                        <p class="card-text">Ethereum is a decentralized platform that runs smart contracts. It was proposed by Vitalik Buterin in late 2013 and went live in 2015.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ripple Card -->
+            <div class="col-md-4">
+                <div class="card crypto-card">
+                    <img src="https://cryptologos.cc/logos/ripple-xrp-logo.png" alt="Ripple Logo" class="card-img-top crypto-logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Ripple (XRP)</h5>
+                        <p class="card-text">Ripple is a digital payment protocol and cryptocurrency. XRP is used to facilitate fast, low-cost international payments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Crypto Details Table -->
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Cryptocurrency</th>
+                        <th>Market Cap</th>
+                        <th>Launch Date</th>
+                        <th>Blockchain Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bitcoin (BTC)</td>
+                        <td>$1 Trillion</td>
+                        <td>2009</td>
+                        <td>Proof of Work</td>
+                    </tr>
+                    <tr>
+                        <td>Ethereum (ETH)</td>
+                        <td>$500 Billion</td>
+                        <td>2015</td>
+                        <td>Proof of Stake (Ethereum 2.0)</td>
+                    </tr>
+                    <tr>
+                        <td>Ripple (XRP)</td>
+                        <td>$40 Billion</td>
+                        <td>2012</td>
+                        <td>Consensus Protocol</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Footer with Source Links -->
+        <footer class="text-center my-4">
+            <p>Sources:</p>
+            <ul>
+                <li><a href="https://www.coindesk.com" target="_blank">CoinDesk</a></li>
+                <li><a href="https://www.coinmarketcap.com" target="_blank">CoinMarketCap</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
